@@ -1,0 +1,51 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "Better music and more of it",
+          "examplePhrases": [
+            "Alexa, play glow radio",
+            "Alexa, launch glow radio",
+            "Alexa, ask glow radio what is playing"
+          ],
+          "keywords": [
+            "Hampshire",
+            "Surrey",
+            "Glow",
+            "Glow Radio",
+            "Music"
+          ],
+          "name": "Glow Radio",
+          "description": "The local radio station for Hampshire and Surrey",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "This skill is being submitted on behalf of GLOW RADIO (owners of the broadcast radio station this skill represents, GLOW RADIO by their contracted technology service provider Aiir Inc (https://aiir.com/)\r\n\r\n* GLOW RADIO is officially licensed by OFCOM to broadcast in ENGLAND and stream commercial music online.\r\n* I confirm GLOW RADIO owns the image rights to the log provided and hereby authorize it for use in this Alexa Skill for GLOW RADIO\r\n* GLOW RADIO owns trademark number UK00003373328 for the use of the name GLOW RADIO.\r\n\r\nAdministrative Contact: Matt Vaughan, matt@glowradio.co.uk\r\nTechnical Contact: Aiir Support, support@aiir.com",
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:380312597482:function:AiirLambdaFunctionAlexaSkill:Prod"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "containsAds": true,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

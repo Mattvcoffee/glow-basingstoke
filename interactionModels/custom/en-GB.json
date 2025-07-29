@@ -1,0 +1,203 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop",
+            "stop audio",
+            "stop the audio",
+            "stop radio",
+            "stop the radio"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "yes",
+            "yeah",
+            "yep"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "no",
+            "nope",
+            "nah"
+          ]
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "PlayAudioIntent",
+          "samples": [
+            "start audio",
+            "play audio",
+            "start radio",
+            "start the radio",
+            "play the radio"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ClearIntent",
+          "samples": [
+            "forget my previous station",
+            "forget my previous choice",
+            "forget previous choice",
+            "forget default station",
+            "forget previous station",
+            "clear default station",
+            "clear station choice",
+            "clear previously stored station",
+            "clear previously stored stations",
+            "clear choice store",
+            "clear stored choices",
+            "clear stored choice",
+            "clear choices",
+            "clear my choices",
+            "clear my choice",
+            "clear my station choice",
+            "clear my stations",
+            "clear previous stations",
+            "clear previous station",
+            "clear any previous choice",
+            "clear any previous choices",
+            "clear any previous stations",
+            "clear store",
+            "clear selection",
+            "clear previous choice",
+            "clear"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "OnAirIntent",
+          "samples": [
+            "what\u0027s on",
+            "whats on",
+            "what\u0027s on now",
+            "whats on now",
+            "what\u0027s on air",
+            "whats on air now",
+            "whats this",
+            "whats this noise",
+            "whats this racket",
+            "who is this",
+            "who\u0027s this",
+            "whose this"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "ShowIntent",
+          "samples": [
+            "what show is on",
+            "what show is on now",
+            "what show is this",
+            "what show\u0027s this",
+            "what shows this",
+            "who is presenting",
+            "who\u0027s this presenter",
+            "who is on air",
+            "who\u0027s on air",
+            "who\u0027s on air now",
+            "whose on air",
+            "who is the presenter",
+            "who is the host"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "NowPlayingIntent",
+          "samples": [
+            "what is playing",
+            "what\u0027s playing",
+            "whats playing",
+            "what is now playing",
+            "what\u0027s now playing",
+            "whats now playing",
+            "what is this song",
+            "what\u0027s this song",
+            "whats this song",
+            "what is the song",
+            "what\u0027s the song",
+            "whats the song",
+            "what song is this",
+            "what song\u0027s this",
+            "what songs this",
+            "what you playing",
+            "what are you playing",
+            "what is playing now",
+            "what\u0027s playing now",
+            "whats playing now",
+            "who is singing",
+            "who\u0027s singing",
+            "whos singing",
+            "who sings this",
+            "what is the current song",
+            "what\u0027s the current song",
+            "whats the current song",
+            "what is currently playing",
+            "what\u0027s currently playing",
+            "whats currently playing",
+            "who is this by",
+            "who\u0027s this by",
+            "whos this by",
+            "what band is this",
+            "what band\u0027s this",
+            "what bands this"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "glow_radio_mwzfjwniugihpjaj",
+          "samples": [
+            "for glow radio",
+            "play glow radio",
+            "glow radio"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "glow radio"
+    }
+  }
+}
